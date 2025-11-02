@@ -1,65 +1,50 @@
 # 🎨 FontChanger — Stylish & Premium Font Generator
 
-![GitHub License](https://img.shields.io/github/license/yourusername/fontchanger?color=4f99a5)
-![GitHub Repo stars](https://img.shields.io/github/stars/yourusername/fontchanger?color=ffb347)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/fontchanger?color=4f99a5)
+![GitHub License](https://img.shields.io/github/license/BORNSECTOR/Font-Changer?color=4f99a5)
+![GitHub Repo stars](https://img.shields.io/github/stars/BORNSECTOR/Font-Changer?color=ffb347)
+![GitHub forks](https://img.shields.io/github/forks/BORNSECTOR/Font-Changer?color=4f99a5)
 ![Made by Bornsector](https://img.shields.io/badge/Made%20by-Bornsector-ff6347?style=flat-square)
 
-> ✨ Instantly convert plain text into **fancy, aesthetic, and premium fonts** with a clean glassmorphism design.
+> ✨ Instantly convert plain text into **fancy, aesthetic, and premium fonts** with a smooth glassmorphism interface.
 
 ---
 
 ## 🌟 Overview
 
-**FontChanger** is a modern and minimal web tool that transforms your plain text into stylish and creative fonts.  
-Built for creators, designers, and social media users who love **uniqueness and premium aesthetics**.
-
-🔹 **Fast** — Real-time text conversion  
-🔹 **Beautiful** — Smooth glassmorphism-inspired design  
-🔹 **Functional** — One-click copy and SEO-optimized structure  
-🔹 **Responsive** — Works perfectly on all devices
+**FontChanger** is a responsive web app that turns your text into stylish and creative fonts in real time.  
+Built for creators, designers, and social-media users who love clean, futuristic, and premium-looking text.
 
 ---
 
 ## 🧠 Features
 
 - 🌈 **Multiple Stylish Fonts** — Bold, Italic, Cursive, Script, and more  
-- ⚡ **Instant Real-Time Conversion** — No reloads, no lag  
-- 💎 **Clean & Responsive UI** — Glass-style interface with smooth shadows  
-- 🪄 **One-Click Copy** — Copy fancy fonts with ease  
-- 🔍 **SEO-Optimized** — Metadata and tags included for visibility  
-- 🧩 **Open Source & Lightweight** — Simple to customize or embed
-
----
-
-## 🖥️ Live Demo
-
-🔗 **[Try it now →](https://yourusername.github.io/fontchanger)**
-
-Preview how your text looks in premium fonts instantly!
+- ⚡ **Instant Real-Time Conversion** — Type once, see styles instantly  
+- 💎 **Clean & Responsive UI** — Modern glassmorphism aesthetic  
+- 🪄 **One-Click Copy** — Copy fancy fonts easily  
+- 🔍 **SEO-Optimized** — Metadata and structured layout for visibility  
+- 🧩 **Open Source & Lightweight** — Simple HTML, CSS, and JS  
 
 ---
 
 ## 🧱 Built With
 
-| Tech | Purpose |
-|------|----------|
-| 🧩 **HTML5** | Structure and accessibility |
-| 🎨 **CSS3 (Glassmorphism)** | Styling and animation |
-| ⚙️ **JavaScript (Vanilla)** | Font conversion logic and interactivity |
+| Technology | Purpose |
+|-------------|----------|
+| 🧩 **HTML5** | Structure & accessibility |
+| 🎨 **CSS3 (Glassmorphism)** | Design & UI styling |
+| ⚙️ **JavaScript (Vanilla)** | Font conversion logic |
 
 ---
 
 ## 🚀 Getting Started
 
-Follow these steps to set up **FontChanger** locally:
-
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/fontchanger.git
+git clone https://github.com/BORNSECTOR/Font-Changer.git
 
-# Open the folder
+# Move into the directory
 cd fontchanger
 
-# Launch the index file
+# Open the project
 start index.html

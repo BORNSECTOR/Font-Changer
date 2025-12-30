@@ -25,38 +25,270 @@
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+  
+  <style>
+    /* Landing page specific styles */
+    .hero-section {
+      min-height: 80vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+      margin-bottom: 4rem;
+    }
+
+    .hero-title {
+      font-size: 4rem;
+      font-weight: 700;
+      background: var(--gradient-main);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 1rem;
+      line-height: 1.2;
+    }
+
+    .hero-subtitle {
+      font-size: 1.5rem;
+      color: var(--soft-white);
+      max-width: 700px;
+      margin: 0 auto 2rem;
+      line-height: 1.6;
+    }
+
+    .cta-button-large {
+      display: inline-block;
+      background: var(--gradient-main);
+      color: var(--white-text);
+      padding: 1.2rem 3rem;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.2rem;
+      margin-top: 1rem;
+      transition: all 0.3s ease;
+      border: none;
+      cursor: pointer;
+    }
+
+    .cta-button-large:hover {
+      box-shadow: 0 0 30px var(--glow-color);
+      transform: scale(1.05) translateY(-2px);
+    }
+
+    .cta-icon {
+      vertical-align: middle;
+      margin-right: 0.5rem;
+    }
+
+    .cta-button-spaced {
+      margin-top: 2rem;
+    }
+
+    .features-section {
+      max-width: 1200px;
+      margin: 4rem auto;
+      padding: 0 2rem;
+    }
+
+    .features-title {
+      font-size: 2.5rem;
+      text-align: center;
+      background: var(--gradient-main);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 3rem;
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-bottom: 4rem;
+    }
+
+    .feature-card {
+      padding: 2rem;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+    }
+
+    .feature-icon {
+      font-size: 3rem;
+      color: var(--blue-end);
+      margin-bottom: 1rem;
+    }
+
+    .feature-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--white-text);
+      margin-bottom: 0.75rem;
+    }
+
+    .feature-description {
+      color: var(--soft-white);
+      opacity: 0.9;
+      line-height: 1.6;
+    }
+
+    .demo-section {
+      max-width: 800px;
+      margin: 4rem auto;
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+
+    .demo-title {
+      font-size: 2rem;
+      color: var(--white-text);
+      margin-bottom: 1.5rem;
+    }
+
+    .demo-examples {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .demo-item {
+      padding: 1.5rem;
+      font-size: 1.5rem;
+      color: var(--white-text);
+      transition: all 0.3s ease;
+    }
+
+    .demo-item:hover {
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 768px) {
+      .hero-title {
+        font-size: 2.5rem;
+      }
+
+      .hero-subtitle {
+        font-size: 1.2rem;
+      }
+
+      .features-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
     <nav class="navbar glass-card">
-      <a href="#" class="logo" title="FontChanger Home">FontChanger</a>
+      <a href="index.html" class="logo" title="FontChanger Home">FontChanger</a>
     </nav>
   </header>
 
-  <main class="container">
-    <div class="main-content">
-      <section class="tool-section">
-        <div class="input-area glass-card">
-          <label for="inputText" class="sr-only">Enter your text here</label>
-          <textarea id="inputText" placeholder="Type your text here..." aria-label="Text input for font conversion"></textarea>
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <h1 class="hero-title">Transform Your Text Into Art</h1>
+      <p class="hero-subtitle">
+        Convert plain text into stunning, stylish fonts instantly. Perfect for social media bios, 
+        posts, usernames, and making your content stand out. Choose from 30+ premium font styles.
+      </p>
+      <a href="app.html" class="cta-button-large">
+        <span class="material-icons-outlined cta-icon">auto_fix_high</span>
+        Start Creating Now
+      </a>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+      <h2 class="features-title">Why Choose FontChanger?</h2>
+      
+      <div class="features-grid">
+        <div class="feature-card glass-card">
+          <div class="material-icons-outlined feature-icon">palette</div>
+          <h3 class="feature-title">30+ Stylish Fonts</h3>
+          <p class="feature-description">
+            From elegant cursive to bold Asian styles, medieval scripts to modern neon — 
+            discover the perfect font for every mood and platform.
+          </p>
         </div>
 
-        <h2>Your Fancy Fonts</h2>
-        <div id="font-results" class="results-grid">
-          <noscript>
-            <p>This font generator requires JavaScript to be enabled. Please enable it in your browser settings to use the tool.</p>
-          </noscript>
+        <div class="feature-card glass-card">
+          <div class="material-icons-outlined feature-icon">flash_on</div>
+          <h3 class="feature-title">Instant Conversion</h3>
+          <p class="feature-description">
+            Type once and see all styles instantly. No waiting, no loading — 
+            real-time conversion as you type.
+          </p>
         </div>
-      </section>
-    </div>
+
+        <div class="feature-card glass-card">
+          <div class="material-icons-outlined feature-icon">content_copy</div>
+          <h3 class="feature-title">One-Click Copy</h3>
+          <p class="feature-description">
+            Found your perfect style? Copy it with a single click and paste anywhere — 
+            Instagram, Twitter, Discord, or any platform.
+          </p>
+        </div>
+
+        <div class="feature-card glass-card">
+          <div class="material-icons-outlined feature-icon">phone_iphone</div>
+          <h3 class="feature-title">Fully Responsive</h3>
+          <p class="feature-description">
+            Works flawlessly on desktop, tablet, and mobile. Create stunning fonts 
+            wherever you are, on any device.
+          </p>
+        </div>
+
+        <div class="feature-card glass-card">
+          <div class="material-icons-outlined feature-icon">lock_open</div>
+          <h3 class="feature-title">100% Free</h3>
+          <p class="feature-description">
+            No registration, no hidden fees, no limits. All features are completely 
+            free and accessible to everyone.
+          </p>
+        </div>
+
+        <div class="feature-card glass-card">
+          <div class="material-icons-outlined feature-icon">code</div>
+          <h3 class="feature-title">Open Source</h3>
+          <p class="feature-description">
+            Built with modern web technologies. Clean code, no tracking, 
+            and completely transparent on GitHub.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section class="demo-section glass-card">
+      <h2 class="demo-title">See The Magic In Action</h2>
+      <p class="hero-subtitle">Here's a preview of what you can create:</p>
+      
+      <div class="demo-examples">
+        <div class="demo-item glass-card">𝓗𝓮𝓵𝓵𝓸 𝓦𝓸𝓻𝓵𝓭 — Cursive</div>
+        <div class="demo-item glass-card">𝐇𝐞𝐥𝐥𝐨 𝐖𝐨𝐫𝐥𝐝 — Bold</div>
+        <div class="demo-item glass-card">卄乇ㄥㄥㄖ 山ㄖ尺ㄥᗪ — Asian Style</div>
+        <div class="demo-item glass-card">🄷🄴🄻🄻🄾 🅆🄾🅁🄻🄳 — Squares</div>
+        <div class="demo-item glass-card">Ⓗⓔⓛⓛⓞ Ⓦⓞⓡⓛⓓ — Bubbles</div>
+      </div>
+
+      <a href="app.html" class="cta-button-large cta-button-spaced">
+        Try It Yourself
+      </a>
+    </section>
   </main>
 
   <footer class="site-footer">
     <p>© 2025 Made by Bornsector | <a href="https://bornsector.carrd.co/" target="_blank">Visit Developer</a></p>
   </footer>
-
-  <script src="app.js"></script>
 </body>
 </html>

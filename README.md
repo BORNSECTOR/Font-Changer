@@ -3,7 +3,7 @@
 ![GitHub License](https://img.shields.io/github/license/BORNSECTOR/Font-Changer?color=4f99a5)
 ![GitHub Repo stars](https://img.shields.io/github/stars/BORNSECTOR/Font-Changer?color=ffb347)
 ![GitHub forks](https://img.shields.io/github/forks/BORNSECTOR/Font-Changer?color=4f99a5)
-![Made by Bornsector](https://img.shields.io/badge/Made%20by-Bornsector-ff6347?style=flat-square)
+![Full Credits to Bornsector](https://img.shields.io/badge/Made%20by-Bornsector-ff6347?style=flat-square)
 
 > ✨ Instantly convert plain text into **fancy, aesthetic, and premium fonts** with a smooth glassmorphism interface.
 

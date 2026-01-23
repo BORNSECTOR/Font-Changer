@@ -5,7 +5,7 @@
     --gradient-main: linear-gradient(135deg, var(--blue-start), var(--blue-end));
     --white-text: #ffffff;
     --soft-white: #f0f8ff;
-    --shadow-color: rgba(0, 0, 0, 0.15);
+    --shadow-color: rgba(0, 0, 0, 0.19);
     --glow-color: rgba(0, 191, 255, 0.7);
     --glass-bg: rgba(255, 255, 255, 0.1);
     --glass-border: rgba(255, 255, 255, 0.2);
@@ -63,7 +63,7 @@ body::before {
     left: 0;
     width: 100%;
     padding: 1rem 2rem;
-    z-index: 1000;
+    z-index: 1100;
 }
 
 .navbar {
@@ -87,12 +87,7 @@ body::before {
 /* NOTE: The rules for '.navbar ul' and '.profile-icon' 
    are still here but won't apply to your new HTML.
    They can be removed if you no longer need them.
-*/
-.navbar ul {
-    display: flex;
-    list-style: none;
-    gap: 0.5rem;
-}
+*/
 
 .navbar ul li a {
     color: var(--soft-white);
@@ -112,11 +107,7 @@ body::before {
     box-shadow: 0 0 15px var(--glow-color);
     transform: translateY(-2px);
 }
-
-.profile-icon .material-icons-outlined {
-    font-size: 2rem;
-    color: var(--soft-white);
-}
+
 
 /* --- Main Layout --- */
 .container {
